@@ -1,10 +1,21 @@
 body {
   font-family: palatino;
-   background-image:  background-image: url("image/pokemon.jpeg");
-   background-size: cover;
-   background-position: center;");
-   background-size: cover;
+   background-image: url("pokemon.jpeg");
+   background-attachment: fixed;
    background-position: center;
+   background-size: 30%;
+   background-repeat: repeat;
+   background-color: white;
+   color: blue;
+   font: 'Merriweather';
+}
+
+ul, li {
+  color: blue;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font: 'Merriweather';
+  font-weight: bold;
 }
 
 #form-wrapper {
@@ -20,6 +31,10 @@ body {
 label.primary {
   display: block;
   margin: 0.4em 0;
+  color: blue;
+  font: 'Merriweather';
+  font-weight: bold;
+  font-size: 25px;
 }
 
 label::after {
@@ -41,6 +56,7 @@ button, input[type='submit'] {
   padding: 0.5rem 0.8rem;
   border: 1px solid #20437c;
   border-radius: 5%;
-  background: #ddeaff
-
+  background: white;
+  color: blue;
+  font: 'Merriweather';
 }
